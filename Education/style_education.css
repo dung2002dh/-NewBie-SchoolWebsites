@@ -23,37 +23,6 @@ h1{
 .navbar li a:hover {
     color:#8EBC8B !important;
 }
-.carousel-inner img {
-	width: 100%;
-
-}
-.container-fluid-journal{
-	background-color: #F9F9F9;
-}
-.container-fluid-journal h4{
-	color:#0F3AE6;
-}
-.btn-primary {
-	background-color: rgb(82,64,120);
-	border: 1px solid white;
-}
-.btn-primary:hover {
-	background-color: rgb(62,44,100);
-	border: 1px solid white;
-}
-.jumbotron {
-	padding: 0.5rem;
-	border-radius: 0;
-}
-.courses img{
-	height: 450px;
-	width: 730px;
-}
-.welcome hr {
-	border-top: 2px solid rgba(62,44,100, 0.6);
-	width: 95%;	
-	margin-bottom: 2rem;
-}
 .fa-react {
 	color: #81D8F7;
 }
@@ -100,9 +69,6 @@ hr.light {
 .light-100 {
 	border-top: 1px solid #d5d5d5;
 	width: 100%;
-}
-p.card-text{
-	font-size: 18px;
 }
 @media (max-width: 992px){
 	.carousel-caption {
@@ -157,26 +123,8 @@ p.card-text{
 	color: #F3EC1C;
 	padding-left: 70px;
 }
-#introduce{
-	background-color:#01448E;
-	color:#C0C0C0; 
-}
 footer{
 	background-color: #01448E;
-}
-#panel h4{
-	color:#1849DC;
-}
-#panel img {
-	padding-left: 8%;
-	height: 400px;
-	width: 720px;
-
-}
-#accordion{
-	width: 700px;
-	text-align: left;
-	
 }
 .likepage img{
 	height:200px;
@@ -184,17 +132,85 @@ footer{
 }
 .late{
 	text-align: right;
-	
 }
-.drak{
-	height: 3px;
-	background-color:#01448E; 
-	width: 90%;
+nav{
+	margin-bottom: 20px;
 }
-iframe{
-	padding-left: auto;
-	padding-right: auto;
-	width: 1430px;
-	height: 700px;
+.total{
+	font-family: arial, sans-serif;
+	margin-left: 20px;
 }
+.heading{
+	color: #1E90FF;
+}
+.title{
+	color: #6495ED;
+	margin-left: 25px;
+}
+.para-top, .box{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.box{
+  	border-collapse: collapse;
+  	margin-bottom: 20px;
+}
+.box, .group, .element{
+	padding:10px;
+	border: 2px solid gray;
+}
+.group-top{
+	background-color: #5F9EA0;
+}
+.group:nth-child(odd){
+	background-color: #7FFFD4;
+}
+.group:nth-child(even){
+	background-color: #FFE4C4;
+}
+.images_education{
+	width: 250px;
+	height: 150px;
+}
+.table{
+	border-collapse: collapse;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.thumnail{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.thumnail img{
+	width: 300px;
+	height: 125px;
+}
+.container{
+	margin-top: 20px;
+}
+.bg-dark{
+	margin-left: 70px;
+	margin-right: 50px;
+	height: 500px;
+}
+.extend{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.card{
+	margin-left: 300px;
+	margin-right: 300px;
 
+}
+.ingredient{
+	background-color: #F0F8FF;
+}
+.single-image{
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.img--bottom{
+	width: 1370px;
+	height: 400px;
+}
